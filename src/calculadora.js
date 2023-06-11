@@ -151,5 +151,64 @@ const Calculadora = () => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#1c1c1e',
+  },
+  resultContainer: {
+    marginBottom: 100,
+  },
+  resultText: {
+    fontSize: 50,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  buttonContainer: {
+    width: 300,
+   
+    
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 10,
+  },
+  button: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#2c2c2e',
+    padding: 10,
+    borderRadius: 8,
+    margin: 4,
+  },
+  buttonO: {
+   flex: 1,
+   justifyContent: 'center',
+   alignItems: 'center',
+   backgroundColor: '#E19002',
+   padding: 10,
+   borderRadius: 8,
+   margin: 4,
+ },
+ buttonB: {
+   flex: 1,
+   justifyContent: 'center',
+   alignItems: 'center',
+   backgroundColor: '#C5D3C4',
+   padding: 10,
+   borderRadius: 8,
+   margin: 4,
+ },
+  buttonText: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+});
+
 
 export default Calculadora;
